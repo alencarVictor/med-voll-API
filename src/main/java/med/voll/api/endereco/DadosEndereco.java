@@ -4,5 +4,7 @@ public record DadosEndereco(String logradouro,
                             String bairro,
                             String uf,
                             String complemento,
-                            String numero) {
+                            String numero,
+                            String cep,
+                            String cidade) {
 }
